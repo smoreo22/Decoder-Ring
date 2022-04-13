@@ -23,7 +23,7 @@ const polybiusModule = (function () {
       return false
     }
     let output = []
-    let string = input.split("");
+    let string = input.toLowerCase().split("");
 
     
     if (encode === false){
