@@ -44,7 +44,6 @@ const substitutionModule = (function () {
     let message = input.toLowerCase().split("");
     let code = alphabet.split("");
 
-   
     for (let i = 0; i < code.length; i++) {
       let check = [];
       for (let j = 0; j < code.length; j++) {
